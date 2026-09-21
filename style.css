@@ -14,3 +14,16 @@ footer{padding:60px 0 25px;border-top:1px solid var(--line);background:#050505}.
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .75s ease,transform .75s ease}.reveal.visible{opacity:1;transform:none}.delay-1{transition-delay:.08s}.delay-2{transition-delay:.16s}.delay-3{transition-delay:.24s}
 @media(max-width:900px){.nav-links{display:none}.hero{padding:75px 0}.hero-grid{grid-template-columns:1fr;gap:30px}.price-stage{min-height:470px}.feature-grid{grid-template-columns:repeat(2,1fr)}.feature-wide{grid-column:span 2}.timeline{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.nav-inner{height:68px}.brand img{width:145px}.nav-cta{padding:10px 13px}.hero{min-height:auto;padding:65px 0 90px}.hero-grid{gap:15px}.hero h1{font-size:55px}.hero-sub{font-size:14px}.price-stage{min-height:440px}.price-card{padding:24px;border-radius:26px}.price-wheel{font-size:86px}.floating-tag{font-size:9px}.tag-1{left:-8px;bottom:28px}.tag-2{right:-8px;top:35px}.section,.dark-band{padding:85px 0}.section-head h2{font-size:42px}.feature-grid{grid-template-columns:1fr}.feature-wide{grid-column:span 1}.feature{min-height:190px}.map-card img{aspect-ratio:1.35/1}.map-overlay{position:relative;left:auto;bottom:auto;border-radius:0;border:0;border-top:1px solid var(--line);max-width:none}.contact-card,.guarantee-inner{flex-direction:column;align-items:flex-start}.footer-grid{grid-template-columns:1fr}.final-box{padding:65px 20px}.final-box h2{font-size:52px}}
+
+/* Retours fournis pour présentation, explicitement non vérifiés. */
+.reviews-section{padding-top:95px}
+.reviews-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.review-card{padding:24px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#121212,#0c0c0c);box-shadow:0 18px 55px rgba(0,0,0,.18);transition:transform .35s ease,border-color .35s ease,background .35s ease}
+.review-card:hover{transform:translateY(-4px);border-color:rgba(255,90,0,.28);background:linear-gradient(145deg,#171717,#0d0d0d)}
+.review-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
+.review-top strong{font-size:14px;color:#f5f5f5}
+.review-top span{font-size:12px;letter-spacing:.12em;color:#ff6a22}
+.review-card p{margin:0;color:#9a9a9a;font-size:12px;line-height:1.75}
+.map-card img{image-rendering:auto;filter:saturate(.82) contrast(1.08) brightness(.82);transition:transform .8s ease,filter .4s ease}
+.map-card:hover img{transform:scale(1.025);filter:saturate(.9) contrast(1.08) brightness(.9)}
+@media(max-width:700px){.reviews-grid{grid-template-columns:1fr}}
